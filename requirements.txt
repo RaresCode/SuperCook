@@ -1,0 +1,7 @@
+# Framework
+Appium-Python-Client
+selenium
+
+# allure reporing
+allure-behave
+
