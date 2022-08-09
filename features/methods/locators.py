@@ -2,11 +2,11 @@ from selenium.webdriver.common.by import By
 
 
 # Locators which will be used when interacting with various elements
-class intro(object):
+class intro():
     # INTRO
     SKIP_INTRO_BTN = (By.XPATH, "//*[@text='214.skip']")
 
-class ingredients_section(object):
+class ingredients_section():
 
     # SELECT INGREDIENTS THROUGH SEARCH INPUT
     SEARCH_INPUT = (By.CLASS_NAME, "android.widget.EditText")
@@ -25,7 +25,7 @@ class ingredients_section(object):
     INGREDIENT_BUTTER_BTN = (By.XPATH, "//android.view.View[2]/android.view.View[6]/android.view.View[1]")
     INGREDIENT_MILK_BTN = (By.XPATH, "//*[@text='milk'][@index='3']")
 
-class pantry_section(object):
+class pantry_section():
     
     # PANTRY
     MY_PANTRY_BTN = (By.XPATH, "//*[starts-with(@text, 'My Pantry')][@clickable='true']")
@@ -34,7 +34,7 @@ class pantry_section(object):
     # DELETE INGREDIENT PASTRY SECTION
     DELETE_INGREDIENT_COORDONATES = (983, 823)
 
-class shoplist_section(object):
+class shoplist_section():
 
     # SHOPLIST
     SHOPLIST_CATEGORY_BTN = (By.XPATH, "//*[@text='Shopping List']")
@@ -46,7 +46,7 @@ class shoplist_section(object):
     SHOPLIST_INLIST_BTN = (By.XPATH, "//*[contains(@text, 'milk')][@index='1']")
     SHOPLIST_FINISHED_TEXT = (By.XPATH, "//*[contains(@text, 'milk')][@index='2']")
 
-class recipes_section(object):
+class recipes_section():
     
     # ALL RECIPES
     RECIPES_CATEGORY_BTN = (By.XPATH, "//*[@text='See Recipes'][@index='1']")
