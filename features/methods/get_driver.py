@@ -8,7 +8,7 @@ class OpenApp():
         platformName='Android',
         automationName='uiautomator2',
         deviceName='Android Emulator',
-        app=(r'C:\\Users\\death\\Documents\\vsc\\super cook\\apk\\orca_share_media1659445078867_6960217132077753563.apk'),
+        app=(r'PATH_TO_APK'),
         appWaitPackage= "com.supercook.app",
         appWaitActivity= "com.supercook.app.MainActivity",
         # newCommandTimeout= "5000"
