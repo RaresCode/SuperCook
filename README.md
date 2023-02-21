@@ -1,7 +1,7 @@
 
 # SuperCook Testing
 
-Testing the cure functionality of the android super cook app using appium. This project 
+Testing the core functionalities of the android super cook app using appium. This project 
 applies page object model and behavior-driven development using python 
 behave framework. You also have the option to generate allure reports for the tests.
 
