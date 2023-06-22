@@ -1,14 +1,20 @@
 
 # SuperCook Testing
 
-Testing the core functionalities of the android super cook app using appium. This project 
-applies page object model and behavior-driven development using python 
-behave framework. You also have the option to generate allure reports for the tests.
+The aim of this project is to thoroughly test the core functionalities of the Android Super Cook app using Appium, a popular mobile automation testing framework. The testing approach will follow the Page Object Model (POM) and Behavior-Driven Development (BDD) principles, utilizing the Python Behave framework. Additionally, the project will leverage Allure reports to generate comprehensive test reports and enhance test result visualization.
+
+## Project Objectives:
+
+- Test Core Functionalities: Conduct systematic testing of the Android Super Cook app to ensure all its core features and functionalities work as expected.
+- Automation with Appium: Utilize Appium, an open-source mobile automation framework, to automate the testing process for the Android Super Cook app.
+- Page Object Model: Implement the Page Object Model design pattern to enhance test maintenance, readability, and reusability.
+- Behavior-Driven Development: Adopt the Behavior-Driven Development approach using the Python Behave framework, enhancing the clarity of test scenarios.
+- Allure Reports: Generate comprehensive Allure reports to provide detailed test execution summaries, metrics, and visualizations for better analysis and reporting.
 
 
 ## Features
 
-- Behavior Driven Development
+- Behavior-Driven Development
 - Page Object Model
 - Appium
 - Allure Reporting
@@ -30,7 +36,7 @@ https://user-images.githubusercontent.com/91252395/183453374-b91de044-3d90-48a9-
 
 - Install and configure Appium-server
 
-- Install and configure android studio and an emulated device or use vysor for real device
+- Install and configure android studio and an emulated device or use Vysor for real device
 
 - Install all the required packages using:
 
